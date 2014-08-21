@@ -1,0 +1,83 @@
+* {
+	font-family: Muli;
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: 100px;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+h4{
+	font-size: 25px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 18px;
+	color: $white;
+}
+
+.header {
+	height: 125px;
+	background-color: $gray;
+}
+
+.logo {
+	padding-top: 15px;
+}
+
+.phone_menu {
+	padding-top: 25px;
+	position: fixed;
+	z-index: 1;
+	@include respond($desktop){
+		display: none;
+	}
+}
+
+.nav {
+	display: none;
+	@include respond($desktop){
+		display: inline;
+		font-size: 25px;
+		margin-top: 60px;
+	}
+}
+
+// home_carousel
+
+	.carousel {
+		display: none;
+		@include respond($desktop){
+			display: inline;
+		}
+	}
+
+	.over_carousel {
+		display: none;
+		@include respond($desktop){
+			display: inline;
+			position: absolute;
+			background: transparent;
+			margin-top: 100px;
+			width: 100%;
+			margin-left: -50%;
+			z-index: 1;
+			text-align: center;
+			margin-left: 0.3%;
+		}
+	}
+
+.footer {
+	height: 100px;
+	background-color: $darkGray;
+	padding-top: 40px;
+}

@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Muli);
+@import "mixins";
+@import "variables";
+@import "headings";
+@import "content";
+
+body {
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 960px;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    font-size:0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+article {
+	@extend.clearfix;
+}
+
+a {
+	text-decoration: none;
+	color: $black;
+}
