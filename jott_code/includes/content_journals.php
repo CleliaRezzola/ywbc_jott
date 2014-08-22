@@ -26,19 +26,19 @@
 						<div id="homeCarousel" class="carousel slide carousel_circle" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="item active">
-									<img src="journals/j1.png" alt="">
+									<img src="images/j1.png" alt="">
 								</div>
 								<div class="item">
-									<img src="journals/j2.png" alt="">
+									<img src="images/j2.png" alt="">
 								</div>
 								<div class="item">
-									<img src="journals/j3.png" alt="">
+									<img src="images/j3.png" alt="">
 								</div>
 								<div class="item">
-									<img src="journals/j4.png" alt="">
+									<img src="images/j4.png" alt="">
 								</div>
 								<div class="item">
-									<img src="journals/j5.png" alt="">
+									<img src="images/j5.png" alt="">
 								</div>
 							</div>
 						</div>
