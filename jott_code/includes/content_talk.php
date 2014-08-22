@@ -5,7 +5,7 @@
 	</div>
 
 	<div class="row contact_info">
-		<div class="col-xs-12 col-md-4 col-md-offset-1 address">
+		<div class="col-xs-10 col-xs-offset-2 col-md-4 col-md-offset-1 address">
 			<p><h5>Addr. 1070 City View<br>Auckland<br>1001</h5></p>
 			<p><h5>Call 0800 CREATE</h5></p>
 			<p><h5>eMail create@jott.com</h5></p>
@@ -37,21 +37,23 @@
 			<div class="col-md-3 col-md-offset-1">
 				<label for="message">Message: </label><br>
 				<input type="text" id="message" name="message"><br><br><br>
-				<input type="submit" value="submit" name="submit">
+				<input type="submit" value="submit" name="submit" class="input_button">
 			</div>		
 		</form>
 	</div>
 
 	<div class="row footer contact_footer">
-		<div class="col-md-2 col-md-offset-3">
-			<a href="index.php?page=journals"><h6>Journals</h6></a>
+		<div class="col-md-2 col-md-offset-1"><h6>legal</h6></div>
+		<div class="col-md-2">
+			<a href="index.php?page=journals"><h6>journals</h6></a>
 		</div>
 		<div class="col-md-2">
-			<a href="index.php?page=story"><h6>Our story</h6></a>
+			<a href="index.php?page=story"><h6>our story</h6></a>
 		</div>
 		<div class="col-md-2">
-			<a href="index.php?page=talk"><h6>Lets talk</h6></a>
+			<a href="index.php?page=talk"><h6>lets talk</h6></a>
 		</div>
+		<div class="col-md-2"><h6>copyright</h6></div>
 	</div>
 
 	<div class="row celebrate">

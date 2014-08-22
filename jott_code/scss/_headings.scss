@@ -43,6 +43,20 @@ h6 {
 	}
 }
 
+	.nav_mobile {
+		position: fixed;
+		z-index: 1;
+		@include respond($desktop){
+		display: none;
+		}
+	}
+
+	.nav_mobile_link {
+		display: none;
+		background-color: $gray;
+		text-align: center;
+	}
+
 .nav {
 	display: none;
 	@include respond($desktop){

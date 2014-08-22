@@ -17,4 +17,8 @@
 			</div>
 		</div>
 	</div>
+	<div class="row home_mobile">
+		<div class="col-xs-12 home_mobile_title">Story Teller</div>
+		<div class="col-xs-12 home_mobile_img"><img src="images/story_teller.jpg" class="img-responsive" alt="Responsive image"></div>
+	</div>
 </div>

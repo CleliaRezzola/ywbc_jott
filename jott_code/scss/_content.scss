@@ -1,3 +1,20 @@
+.home_mobile {
+	display: block;
+	@include respond($desktop){
+		display: none;
+	}
+}
+
+	.home_mobile_title {
+		font-size: 70px;
+		text-align: center;
+		margin-top: 50px;
+	}
+
+	.home_mobile_img {
+		margin-top: 70px;
+	}
+
 .journals_header {
 	display: none;
 	@include respond($desktop){
@@ -67,6 +84,10 @@
 	}
 }
 
+	.scrolling_img {
+		z-index: 1;
+	}
+
 	.scrolling_text {
 		margin-top: 75px;		
 	}
@@ -77,23 +98,68 @@
 		display: block;
 		background-image: url('../images/paper.jpg');
 		padding-top: 30px;
-
 	}
 }
 
-.img_gallery_mobile {
+.carousel_circle {
+	width: 212px;
+	height: 212px;
+}
 
+//image gallery
+
+.img_gallery_mobile {
+	display: block;
+	height: 500px;
+	background-image: url('../journals/journal2.png');
+	background-repeat: no-repeat;
 	@include respond($desktop){
 			display: none;
 		}
 }
 
-.gallery_mobile {
-	width: 370px;
-	height: 200px;
-	border: 1px solid $black;
-	margin-top: 30px;
+	.thumb {
+		width: 50px;
+		margin: 2px;
+		margin-top: -10px;
+	}
+
+	.thumbscroller {
+		width: 350px;
+		height: 70px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		white-space: nowrap;
+		padding: 10px;
+		background-color: black;
+		margin-left: -5px;
+	}
+
+	.downloader {
+		width: 800px;
+		height: 300px;
+		margin: 0 auto;
+		font-size: 50px;
+		text-align: center;
+		background-color: #eceaed;
+	}
+
+.row_thumbscroller {
+	display: block;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	margin-top: 40px;
+	@include respond($desktop){
+			display: none;
+	}
+}
+
+.create_yours_mobile {
+	margin-top: 60px;
 	margin-bottom: 60px;
+	@include respond($desktop){
+			display: none;
+	}
 }
 
 .create_yours {
@@ -158,11 +224,53 @@
 	}
 
 .mobile_story {
-
 	@include respond($desktop){
 		display: none;
 	}
 }
+
+	.mobile_our_story {
+		margin-top: 30px;
+	}
+
+	.mission {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	.our_mission_img {
+		margin-top: 15px;
+	}
+
+	.our_mission {
+		margin-bottom: 15px;
+		margin-top: -15px;
+	}
+
+	.our_mission_text {
+		margin-bottom: 10px;
+	}
+
+	.text_after_mission {
+		text-align: center;
+		margin-top: 60px;
+		margin-bottom: 10px;
+	}
+
+		.text_after_mission_one {
+			margin-bottom: 20px;
+		}
+
+	.read_more_button {
+		width: 200px;
+		height: 60px;
+		background-color: $limeGreen;
+		border: 1px solid $limeGreen;
+		border-radius: 15px;
+		margin-top: 40px;
+		margin-left: -30px;
+		color: $white;
+	}
 
 .contact {
 	background-color: none;
@@ -192,6 +300,9 @@
 }
 
 	.address {
+		text-align: center;
+		margin-left: 40px;
+		margin-bottom: 20px;
 		@include respond($desktop){
 			padding-top: 30px;
 		}
@@ -210,6 +321,14 @@
 		background-color: $gray;
 	}
 }
+
+	.input_button {
+		width: 160px;
+		height: 40px;
+		background-color: $softCyan;
+		border: 1px solid $softCyan;
+		border-radius: 15px;
+	}
 
 	.contact_form {
 		margin-top: 35px;
@@ -238,16 +357,3 @@
 		display:none;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

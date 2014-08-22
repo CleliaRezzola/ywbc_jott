@@ -44,7 +44,8 @@
 	</div>
 
 	<div class="row footer contact_footer">
-		<div class="col-md-2 col-md-offset-3">
+		<div class="col-md-2 col-md-offset-1"><h6>legal</h6></div>
+		<div class="col-md-2">
 			<a href="index.php?page=journals"><h6>journals</h6></a>
 		</div>
 		<div class="col-md-2">
@@ -53,37 +54,38 @@
 		<div class="col-md-2">
 			<a href="index.php?page=talk"><h6>lets talk</h6></a>
 		</div>
+		<div class="col-md-2"><h6>copyright</h6></div>
 	</div>
 
 </div>
 
 <container class="mobile_story">
-	<div class="row">
-		<div class="col-xs-4 col-xs-offset-4">Our Story</div>
+	<div class="row mobile_our_story">
+		<div class="col-xs-4 col-xs-offset-4"><h4>Our Story</h4></div>
 	</div>
 
-	<div class="row">
-		<div class="col-xs-4 col-xs-offset-1">
+	<div class="row mission">
+		<div class="col-xs-4 col-xs-offset-1 our_mission_img">
 			<img src="images/zoe.png" class="img-responsive" alt="Responsive image">
 		</div>
 
-		<div class="col-xs-3">Our Mission</div>
+		<div class="col-xs-4 our_mission"><h5>Our Mission</h5></div>
 
-		<div class="col-xs-5">
+		<div class="col-xs-5 our_mission_text">
 			"To facilitate in the writing <br>of dreams the recording <br>of memories and the <br> appreciation of life"
 		</div>
 
-		<div class="col-xs-3">
+		<div class="col-xs-4 col-xs-offset-2">
 			- Zoe Mclean <br>Founder of Jott
 		</div>
 	</div>
 
-	<div class="row">
-		<div class="col-xs-10 col-xs-offset-1">
-			In just 3 short years Jott has risen from cottage industry to industry leader.
+	<div class="row text_after_mission">
+		<div class="col-xs-10 col-xs-offset-1 text_after_mission_one">
+			<p>In just 3 short years Jott has risen <br> from cottage industry to <br>industry leader.</p>
 		</div>
 		<div class="col-xs-10 col-xs-offset-1">
-			Discover the background to Jott. Who we are, what we believe and just how we are able to create the worlds most beautiful journals.
+			<p>Discover the background to Jott. <br> Who we are, what we believe <br> and just how we are able <br>to create the worlds most beautiful journals.</p>
 		</div>
 	</div>
 
@@ -92,4 +94,5 @@
 			<button class="read_more_button"><h4>Read More</h4></button>
 		</div>
 	</div>
+	
 </container>

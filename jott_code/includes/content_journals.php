@@ -20,9 +20,32 @@
 		<div class="col-md-5 col-md-offset-2 scrolling_text">
 			<h4>Each journal is custom <br> built to your requirements.</h4>
 		</div>
-		<div class="col-md-3 scrolling_img">
-			<img src="images/circle.jpg" alt="">
+		<div class="col-md-3">
+			
+
+						<div id="homeCarousel" class="carousel slide carousel_circle" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="journals/j1.png" alt="">
+								</div>
+								<div class="item">
+									<img src="journals/j2.png" alt="">
+								</div>
+								<div class="item">
+									<img src="journals/j3.png" alt="">
+								</div>
+								<div class="item">
+									<img src="journals/j4.png" alt="">
+								</div>
+								<div class="item">
+									<img src="journals/j5.png" alt="">
+								</div>
+							</div>
+						</div>
+
 		</div>
+
+
 	</div>
 
 	<div class="row after_scrolling_text">
@@ -34,12 +57,17 @@
 		</div>
 	</div>
 
-	<div class="row img_gallery_mobile">
-		<div class="col-xs-10 col-xs-offset-1 gallery_mobile"> </div>
+
+	<div class="row row_thumbscroller">
+		<div class="col-xs-10 col-xs-offset-1 thumbscroller"></div>
+	</div>
+
+	<div class="row img_gallery_mobile"></div>
+
+	<div class="row create_yours_mobile">
 		<div class="col-xs-3 col-xs-offset-4">
 			<button class="create_yours_button"><h4>Create Yours</h4></button>
 		</div>
-		<div class="col-xs-8 col-xs-offset-2 line_after"></div>
 	</div>
 
 	<div class="row create_yours">
@@ -51,15 +79,17 @@
 	</div>
 
 	<div class="row footer contact_footer">
-		<div class="col-md-2 col-md-offset-3">
-			<a href="index.php?page=journals"><h6>Journals</h6></a>
+		<div class="col-md-2 col-md-offset-1"><h6>legal</h6></div>
+		<div class="col-md-2">
+			<a href="index.php?page=journals"><h6>journals</h6></a>
 		</div>
 		<div class="col-md-2">
-			<a href="index.php?page=story"><h6>Our story</h6></a>
+			<a href="index.php?page=story"><h6>our story</h6></a>
 		</div>
 		<div class="col-md-2">
-			<a href="index.php?page=talk"><h6>Lets talk</h6></a>
+			<a href="index.php?page=talk"><h6>lets talk</h6></a>
 		</div>
+		<div class="col-md-2"><h6>copyright</h6></div>
 	</div>
 
 </div>

@@ -6,4 +6,15 @@
 		<div class="col-md-2 nav"><a href="index.php?page=story">Our story</a></div>
 		<div class="col-md-2 nav"><a href="index.php?page=talk">Lets talk</a></div>
 	</div>
+	<div class="row nav_mobile">
+		<div class="col-xs-5 col-xs-offset-8 nav_mobile_link">
+			<a href="index.php?page=journals"><h4>Journals</h4></a>
+		</div>
+		<div class="col-xs-5 col-xs-offset-8 nav_mobile_link">
+			<a href="index.php?page=story"><h4>Our story</h4></a>
+		</div>
+		<div class="col-xs-5 col-xs-offset-8 nav_mobile_link">
+			<a href="index.php?page=talk"><h4>Lets talk</h4></a>
+		</div>
+	</div>
 </div>
