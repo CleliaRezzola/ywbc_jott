@@ -15,39 +15,34 @@
 		<div class="col-xs-12 after_journals_header_mobile"><h5>The World's most Beautiful Journals</h5></div>
 		<div class="col-xs-8 col-xs-offset-2 line_after"></div>
 	</div>
-
+	<!-- Carousel -->
 	<div class="row scrolling">
 		<div class="col-md-5 col-md-offset-2 scrolling_text">
 			<h4>Each journal is custom <br> built to your requirements.</h4>
 		</div>
 		<div class="col-md-3">
-			
-
-						<div id="homeCarousel" class="carousel slide carousel_circle" data-ride="carousel">
-							<div class="carousel-inner">
-								<div class="item active">
-									<img src="images/j1.png" alt="">
-								</div>
-								<div class="item">
-									<img src="images/j2.png" alt="">
-								</div>
-								<div class="item">
-									<img src="images/j3.png" alt="">
-								</div>
-								<div class="item">
-									<img src="images/j4.png" alt="">
-								</div>
-								<div class="item">
-									<img src="images/j5.png" alt="">
-								</div>
-							</div>
-						</div>
-
+			<div id="homeCarousel" class="carousel slide carousel_circle" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/j1.png" alt="">
+					</div>
+					<div class="item">
+						<img src="images/j2.png" alt="">
+					</div>
+					<div class="item">
+						<img src="images/j3.png" alt="">
+					</div>
+					<div class="item">
+						<img src="images/j4.png" alt="">
+					</div>
+					<div class="item">
+						<img src="images/j5.png" alt="">
+					</div>
+				</div>
+			</div>
 		</div>
-
-
 	</div>
-
+	<!-- End of Carousel -->
 	<div class="row after_scrolling_text">
 		<div class="col-md-5 col-md-offset-2">
 			<h5>We combine the finest <br> materials with exquisite design <br> to create beauty in simplicity.</h5>
@@ -56,7 +51,6 @@
 			<h5>The finishing touches are <br> then decided by the person <br> who knows you best - You.</h5>
 		</div>
 	</div>
-
 
 	<div class="row row_thumbscroller">
 		<div class="col-xs-10 col-xs-offset-1 thumbscroller"></div>

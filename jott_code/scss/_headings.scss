@@ -42,20 +42,20 @@ h6 {
 		display: none;
 	}
 }
-
-	.nav_mobile {
-		position: fixed;
-		z-index: 1;
-		@include respond($desktop){
+// Nav--mobile
+.nav_mobile {
+	position: fixed;
+	z-index: 1;
+	@include respond($desktop){
 		display: none;
 		}
-	}
+}
 
-	.nav_mobile_link {
-		display: none;
-		background-color: $gray;
-		text-align: center;
-	}
+.nav_mobile_link {
+	display: none;
+	background-color: $gray;
+	text-align: center;
+}
 
 .nav {
 	display: none;
@@ -68,27 +68,27 @@ h6 {
 
 // home_carousel
 
-	.carousel {
-		display: none;
-		@include respond($desktop){
-			display: inline;
-		}
+.carousel {
+	display: none;
+	@include respond($desktop){
+		display: inline;
 	}
+}
 
-	.over_carousel {
-		display: none;
-		@include respond($desktop){
-			display: inline;
-			position: absolute;
-			background: transparent;
-			margin-top: 100px;
-			width: 100%;
-			margin-left: -50%;
-			z-index: 1;
-			text-align: center;
-			margin-left: 0.3%;
-		}
+.over_carousel {
+	display: none;
+	@include respond($desktop){
+		display: inline;
+		position: absolute;
+		background: transparent;
+		margin-top: 100px;
+		width: 100%;
+		margin-left: -50%;
+		z-index: 1;
+		text-align: center;
+		margin-left: 0.3%;
 	}
+}
 
 .footer {
 	height: 100px;
